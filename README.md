@@ -98,7 +98,7 @@
 </head>
 <body>
     <header>
-        <img src="C:\Users\Harold\Documents\419873735_378061001577662_4683229797514632158_n (1).jpg">
+        <img src="https://github.com/bRuAnViNcRmT/alvinbruan.github.io/blob/main/419873735_378061001577662_4683229797514632158_n.jpg?raw=true">
         <h1>Hello there! Welcome to my Portfolio</h1>
         <p>Explore my projects, skills, and experience</p>
     </header>
