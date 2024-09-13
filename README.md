@@ -18,6 +18,7 @@
             padding: 30px;
             text-align: center;
             background-size: cover;
+            align-items: center;
         }
 
         header img {
@@ -27,6 +28,8 @@
             display: block;
             margin: 0 auto;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            align-items: center;
+            background-size: cover;
         }
         h1 {
             font-size: 2.5em;
@@ -45,6 +48,8 @@
             border-radius: 15px;
             background-color: whitesmoke;
             box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+            align-items: center;
+            background-size: cover;
         }
 
         .container {
