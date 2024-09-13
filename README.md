@@ -65,7 +65,6 @@
             text-align: center;
         }
         .container div:hover {
-            flex: 1 1 calc(33.333% - 40px);
             margin: 20px;
             padding: 20px;
             border: 1px solid #aea6a6;
