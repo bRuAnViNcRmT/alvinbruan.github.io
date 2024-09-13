@@ -29,7 +29,6 @@
             margin: 0 auto;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             align-items: center;
-            background-size: cover;
         }
         h1 {
             font-size: 2.5em;
@@ -65,6 +64,7 @@
             text-align: center;
         }
         .container div:hover {
+            flex: 1 1 calc(33.333% - 40px);
             margin: 20px;
             padding: 20px;
             border: 1px solid #aea6a6;
@@ -96,6 +96,7 @@
         }
     </style>
 </head>
+    
 <body>
     <header>
         <img src="https://github.com/bRuAnViNcRmT/alvinbruan.github.io/blob/main/419873735_378061001577662_4683229797514632158_n.jpg?raw=true">
