@@ -7,7 +7,7 @@
     <title>My Portfolio</title>
     <style>
         body {
-            font-family: Verdana , "Lucida Sans Regular";
+            font-family: Verdana, "Lucida Sans Regular";
             background-color: aquamarine;
             margin: 0;
             padding: 0;
@@ -19,24 +19,23 @@
             padding: 30px;
             text-align: center;
             background-size: cover;
-            align-items: center;
         }
         header img {
             border-radius: 50%;
-            width: 200px;
-            height: 200px;
+            width: 15vw;
+            max-width: 150px;
+            height: auto;
             display: block;
             margin: 0 auto;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            align-items: center;
         }
         h1 {
-            font-size: 2.5em;
+            font-size: 2em;
             margin: 10px 0;
         }
         h2 {
             color: darkslategray;
-            font-size: 1.8em;
+            font-size: 1.5em;
         }
         section {
             max-width: 1050px;
@@ -45,8 +44,6 @@
             border-radius: 15px;
             background-color: whitesmoke;
             box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
-            align-items: center;
-            background-size: cover;
         }
         .container {
             display: flex;
@@ -54,8 +51,8 @@
             flex-wrap: wrap;
         }
         .container div {
-            flex: 1 1 calc(33.333% - 40px);
-            margin: 20px;
+            flex: 1 1 calc(33.333% - 20px);
+            margin: 10px;
             padding: 20px;
             border: 1px solid #aea6a6;
             border-radius: 10px;
@@ -64,15 +61,8 @@
             text-align: center;
         }
         .container div:hover {
-            flex: 1 1 calc(33.333% - 40px);
-            margin: 20px;
-            padding: 20px;
-            border: 1px solid #aea6a6;
-            border-radius: 10px;
-            color: aliceblue;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
             background-color: #2f2929;
-            text-align: center;
+            color: aliceblue;
         }
         footer {
             background: url('https://www.adobe.com/express/learn/blog/media_1a4723eb0c857716ca15b1ce012eb9128028b49a8.png?width=2000&format=webply&optimize=medium.jpg') no-repeat center center fixed;
@@ -80,18 +70,41 @@
             font-weight: bold;
             background-size: cover;
             text-align: center;
-            padding: 5px;
+            padding: 10px;
             position: relative;
             bottom: 0;
             width: 100%;
         }
         /* Responsive Design */
         @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+            }
+            h2 {
+                font-size: 1.3em;
+            }
             .container div {
                 flex: 1 1 100%;
+                margin: 10px 0;
             }
             header, footer {
-                padding: 10px;
+                padding: 20px;
+            }
+            header img {
+                width: 25vw;
+                max-width: 100px;
+            }
+        }
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5em;
+            }
+            h2 {
+                font-size: 1.1em;
+            }
+            header img {
+                width: 35vw;
+                max-width: 80px;
             }
         }
     </style>
@@ -99,13 +112,13 @@
     
 <body>
     <header>
-        <img src="https://github.com/bRuAnViNcRmT/alvinbruan.github.io/blob/main/419873735_378061001577662_4683229797514632158_n.jpg?raw=true">
+        <img src="https://github.com/bRuAnViNcRmT/alvinbruan.github.io/blob/main/419873735_378061001577662_4683229797514632158_n.jpg?raw=true" alt="Profile Picture">
         <h1>Hello there! Welcome to my Portfolio</h1>
         <p>Explore my projects, skills, and experience</p>
     </header>
     <section id="about">
         <h2><i class="fas fa-user"></i> About Me</h2>
-        <p>Hello! I am Alvin Bruan, a second-year IT student with a passion for building user-friendly and functional websites. I usually inclined with front-end development with experience in back-end technologies as well.</p>
+        <p>Hello! I am Alvin Bruan, a second-year IT student with a passion for building user-friendly and functional websites. I usually focus on front-end development with experience in back-end technologies as well.</p>
     </section>
     <section id="projects">
         <h2><i class="fas fa-briefcase"></i> My Projects</h2>
@@ -116,7 +129,7 @@
             </div>
             <div>
                 <h3>Wordling</h3>
-                <p>An interactive word-guessing-game designed to improve user's vocabulary and problem-solving skills.</p>
+                <p>An interactive word-guessing-game designed to improve users' vocabulary and problem-solving skills.</p>
             </div>
             <div>
                 <h3>Barangay Papers Management System</h3>
