@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -20,7 +21,6 @@
             background-size: cover;
             align-items: center;
         }
-
         header img {
             border-radius: 50%;
             width: 200px;
@@ -35,14 +35,12 @@
             font-size: 2.5em;
             margin: 10px 0;
         }
-
         h2 {
             color: darkslategray;
             font-size: 1.8em;
         }
-
         section {
-            max-width: 1000px;
+            max-width: 1050px;
             margin: 20px auto;
             padding: 20px;
             border-radius: 15px;
@@ -51,13 +49,11 @@
             align-items: center;
             background-size: cover;
         }
-
         .container {
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
         }
-
         .container div {
             flex: 1 1 calc(33.333% - 40px);
             margin: 20px;
@@ -79,7 +75,6 @@
             background-color: #2f2929;
             text-align: center;
         }
-
         footer {
             background: url('https://www.adobe.com/express/learn/blog/media_1a4723eb0c857716ca15b1ce012eb9128028b49a8.png?width=2000&format=webply&optimize=medium.jpg') no-repeat center center fixed;
             color: rgb(0, 0, 0);
@@ -91,33 +86,27 @@
             bottom: 0;
             width: 100%;
         }
-
         /* Responsive Design */
         @media (max-width: 768px) {
             .container div {
                 flex: 1 1 100%;
             }
-
             header, footer {
                 padding: 10px;
             }
         }
-
     </style>
 </head>
 <body>
-
     <header>
         <img src="C:\Users\Harold\Documents\419873735_378061001577662_4683229797514632158_n (1).jpg">
         <h1>Hello there! Welcome to my Portfolio</h1>
         <p>Explore my projects, skills, and experience</p>
     </header>
-
     <section id="about">
         <h2><i class="fas fa-user"></i> About Me</h2>
         <p>Hello! I am Alvin Bruan, a second-year IT student with a passion for building user-friendly and functional websites. I usually inclined with front-end development with experience in back-end technologies as well.</p>
     </section>
-
     <section id="projects">
         <h2><i class="fas fa-briefcase"></i> My Projects</h2>
         <div class="container">
@@ -135,7 +124,6 @@
             </div>
         </div>
     </section>
-
     <section id="contact">
         <h2><i class="fas fa-paper-plane"></i> Contact Me</h2>
         <p>Feel free to reach out for collaborations or just a friendly chat:</p>
@@ -143,10 +131,8 @@
         <p><i class="fas fa-phone"></i> +63 991 807 3592</p>
         <p><i class="fab fa-facebook"></i> Alvin Caramat Bruan</p>
     </section>
-
     <footer>
         <p>&copy; 2024 My Portfolio | All Rights Reserved</p>
     </footer>
-
 </body>
 </html>
