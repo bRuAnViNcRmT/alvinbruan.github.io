@@ -35,6 +35,7 @@
         h2 {
             color: darkslategray;
             font-size: 1.5em;
+            margin-bottom: 20px;
         }
         section {
             max-width: 1000px;
@@ -46,12 +47,12 @@
         }
         #projects {
             position: relative;
-            max-width: 500px;
         }
         .container {
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
+            gap: 20px;
         }
         .container div {
             flex: 1 1 calc(33.333% - 20px);
@@ -87,8 +88,7 @@
                 font-size: 1.3em;
             }
             .container div {
-                flex: 1 1 100%;
-                margin: 10px 0;
+                flex: 1 1 calc(50% - 20px); /* Adjust for tablet screens */
             }
             header, footer {
                 padding: 20px;
@@ -104,6 +104,9 @@
             }
             h2 {
                 font-size: 1.1em;
+            }
+            .container div {
+                flex: 1 1 100%; /* Full-width on smaller screens */
             }
             header img {
                 width: 35vw;
