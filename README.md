@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -44,6 +43,9 @@
             border-radius: 15px;
             background-color: whitesmoke;
             box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+        }
+        #projects {
+            position: relative;
         }
         .container {
             display: flex;
