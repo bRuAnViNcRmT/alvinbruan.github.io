@@ -37,7 +37,7 @@
             font-size: 1.5em;
         }
         section {
-            max-width: 1050px;
+            max-width: 100px;
             margin: 20px auto;
             padding: 20px;
             border-radius: 15px;
