@@ -21,15 +21,15 @@
         }
         header img {
             border-radius: 50%;
-            width: 15vw;
-            max-width: 120px; /* Reduced image size */
+            width: 25vw;
+            max-width: 120px; /* Reduce size */
             height: auto;
             display: block;
             margin: 0 auto;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
         h1 {
-            font-size: 2em;
+            font-size: 1.8em;
             margin: 10px 0;
         }
         h2 {
@@ -50,13 +50,10 @@
         }
         .container {
             display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
+            flex-direction: column;
             gap: 20px;
         }
         .container div {
-            flex: 1 1 calc(33.333% - 20px);
-            margin: 10px;
             padding: 20px;
             border: 1px solid #aea6a6;
             border-radius: 10px;
@@ -82,49 +79,51 @@
         /* Responsive Design */
         @media (max-width: 768px) {
             h1 {
-                font-size: 1.8em;
+                font-size: 1.5em;
             }
             h2 {
                 font-size: 1.3em;
             }
             .container div {
-                flex: 1 1 calc(50% - 20px); /* Adjust for tablet screens */
+                padding: 15px;
+                margin: 10px 0;
+            }
+            header img {
+                width: 20vw;
+                max-width: 100px; /* Smaller image size */
             }
             header, footer {
                 padding: 20px;
             }
-            header img {
-                width: 25vw;
-                max-width: 90px; /* Smaller image size on tablets */
-            }
         }
         @media (max-width: 480px) {
             h1 {
-                font-size: 1.5em;
+                font-size: 1.3em;
             }
             h2 {
                 font-size: 1.1em;
             }
             .container div {
-                flex: 1 1 100%; /* Full-width on smaller screens */
+                padding: 10px;
+                margin: 10px 0;
             }
             header img {
-                width: 35vw;
-                max-width: 70px; /* Smaller image size on mobile */
+                width: 30vw;
+                max-width: 80px; /* Smaller image size */
             }
             header, footer {
                 padding: 15px;
             }
             section {
-                padding: 10px; /* Less padding for better fit on small screens */
+                padding: 10px; /* Reduced padding */
             }
             .container {
-                gap: 10px; /* Smaller gap on mobile */
+                gap: 10px;
             }
         }
     </style>
 </head>
-    
+
 <body>
     <header>
         <img src="https://github.com/bRuAnViNcRmT/alvinbruan.github.io/blob/main/419873735_378061001577662_4683229797514632158_n.jpg?raw=true" alt="Profile Picture">
