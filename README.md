@@ -37,7 +37,7 @@
             font-size: 1.5em;
         }
         section {
-            max-width: 100px;
+            max-width: 1000px;
             margin: 20px auto;
             padding: 20px;
             border-radius: 15px;
@@ -46,6 +46,7 @@
         }
         #projects {
             position: relative;
+            max-width: 1000px;
         }
         .container {
             display: flex;
