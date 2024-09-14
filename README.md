@@ -46,7 +46,7 @@
         }
         #projects {
             position: relative;
-            max-width: 1000px;
+            max-width: 500px;
         }
         .container {
             display: flex;
