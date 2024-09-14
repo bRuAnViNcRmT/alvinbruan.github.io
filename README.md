@@ -15,14 +15,14 @@
         header {
             background: url('https://www.adobe.com/express/learn/blog/media_1a4723eb0c857716ca15b1ce012eb9128028b49a8.png?width=2000&format=webply&optimize=medium.jpg') no-repeat center center fixed;
             color: black;
-            padding: 30px;
+            padding: 20px;
             text-align: center;
             background-size: cover;
         }
         header img {
             border-radius: 50%;
             width: 15vw;
-            max-width: 150px;
+            max-width: 120px; /* Reduced image size */
             height: auto;
             display: block;
             margin: 0 auto;
@@ -95,7 +95,7 @@
             }
             header img {
                 width: 25vw;
-                max-width: 100px;
+                max-width: 90px; /* Smaller image size on tablets */
             }
         }
         @media (max-width: 480px) {
@@ -110,7 +110,16 @@
             }
             header img {
                 width: 35vw;
-                max-width: 80px;
+                max-width: 70px; /* Smaller image size on mobile */
+            }
+            header, footer {
+                padding: 15px;
+            }
+            section {
+                padding: 10px; /* Less padding for better fit on small screens */
+            }
+            .container {
+                gap: 10px; /* Smaller gap on mobile */
             }
         }
     </style>
